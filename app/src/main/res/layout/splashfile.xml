@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/extra_dark_grey">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/anime9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/extrabold"
+        android:text="watching anime"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/extrabold"
+        android:text="has never been easier!"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
